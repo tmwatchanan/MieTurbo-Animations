@@ -3,12 +3,11 @@
 ## Installation for Windows
 
 - [MikTex](https://miktex.org/download)
-- [SoX](https://sourceforge.net/projects/sox/files/sox/), the latest version might be 14.4.2
-- `choco install ffmpeg`
 - `conda create -n manim`
 - `conda activate manim`
-- [Pycairo](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pycairo)
-    - If you use Python 3.8, then download `pycairo‑1.??.?‑cp38‑cp38‑win_amd64.whl` and run `pip install pycairo‑1.??.?‑cp38‑cp38‑win_amd64.whl`
+- `conda install -c conda-forge sox`
+- `conda install -c conda-forge ffmpeg`
+- `conda install -c conda-forge cairo`
 - (optional) `conda install numpy` if there is an error about numpy
 - Add `C:\Users\Tommie\miniconda3\Library\bin` to the environment variable PATH
 - `pip install manimlib`
